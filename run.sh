@@ -67,4 +67,4 @@ a2ensite $1.conf
 service apache2 restart
 
 echo "Done!"
-echo "git add remote ssh://$HOSTNAME/var/www/$1/$1.git"
+echo "git remote add live ssh://$HOSTNAME/var/www/$1/$1.git"
