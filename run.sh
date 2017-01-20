@@ -14,6 +14,7 @@ then
 	exit 1
 fi
 
+APACHE_LOG_DIR="/var/log/apache2/";
 APACHECONF="/etc/apache2/sites-available/$1.conf";
 echo $APACHECONF
 mkdir /var/www/$1
